@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sukhmandeep Singh — Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-size: 10.5pt; line-height: 1.55; color: #1a1a1a;
+    max-width: 8.5in; margin: 0 auto; padding: 0.45in 0.55in;
+  }
+  a { color: #1a1a1a; text-decoration: none; }
+  h1 { font-size: 18pt; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 2pt; }
+  h2 {
+    font-size: 9.5pt; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: #444; border-bottom: 1.5px solid #222;
+    padding-bottom: 3pt; margin: 16pt 0 8pt 0;
+  }
+  h3 { font-size: 10.5pt; font-weight: 600; }
+
+  .header { margin-bottom: 10pt; }
+  .contact { font-size: 9.5pt; color: #444; margin: 4pt 0 0 0; }
+  .contact span { margin-right: 12pt; }
+
+  .summary { font-size: 10pt; color: #333; margin-bottom: 2pt; line-height: 1.5; }
+
+  .item { margin-bottom: 10pt; }
+  .item-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .item-title { font-weight: 600; }
+  .item-sub { color: #555; font-size: 9.5pt; }
+  .item-date { font-size: 9pt; color: #777; white-space: nowrap; }
+
+  ul { margin: 3pt 0 0 14pt; }
+  li { font-size: 9.5pt; color: #333; margin-bottom: 1.5pt; line-height: 1.45; }
+
+  .skills-list { font-size: 9.5pt; color: #333; line-height: 1.6; }
+  .skills-list strong { font-weight: 600; }
+
+  .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6pt 18pt; }
+  .proj-item { font-size: 9.5pt; }
+  .proj-item h3 { font-size: 9.5pt; margin-bottom: 1pt; }
+  .proj-item p { color: #555; font-size: 8.5pt; line-height: 1.4; }
+
+  @media print { body { padding: 0.4in 0.5in; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sukhmandeep Singh</h1>
+  <div class="contact">
+    <span>Waterloo, ON</span>
+    <span>sukhofficial@yahoo.com</span>
+    <span>+1 (647) 894-0740</span>
+    <span>linkedin.com/in/sukhmaann</span>
+    <span>github.com/Sukhman18</span>
+  </div>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">
+Data Analyst and aspiring Machine Learning practitioner with a B.Tech in Computer Science and a Post-Graduate Certificate in Data Analytics. Hands-on experience building ML models (CNNs, NLP, classification) and working with SQL, Python, and data pipelines. 4 years in analytical roles involving requirements gathering, data validation, and stakeholder collaboration. Currently deep-diving into LLMs and transformer architectures.
+</p>
+
+<h2>Skills</h2>
+<div class="skills-list">
+  <strong>Machine Learning:</strong> TensorFlow, scikit-learn, CNNs, NLP, classification, regression, model evaluation<br>
+  <strong>Data & Analytics:</strong> SQL (SQL Server, MySQL), Python (pandas, NumPy, matplotlib, NLTK), data cleaning, EDA, Power BI<br>
+  <strong>Tools & Practices:</strong> Jupyter, Git, Agile/Scrum, UAT facilitation, requirements gathering, stakeholder communication<br>
+  <strong>Languages:</strong> English, French, Punjabi
+</div>
+
+<h2>Projects</h2>
+<div class="projects-grid">
+  <div class="proj-item">
+    <h3>COVID-19 Detection with CNNs</h3>
+    <p>Built and compared two CNN architectures for chest X-ray classification (COVID vs Normal). Data augmentation, learning rate scheduling, model evaluation. TensorFlow, 500+ medical images.</p>
+  </div>
+  <div class="proj-item">
+    <h3>MNIST Digit Classification</h3>
+    <p>Compared SVM and neural network (MLP) approaches on handwritten digit recognition. Confusion matrices, loss curves, error analysis. scikit-learn.</p>
+  </div>
+  <div class="proj-item">
+    <h3>Book Recommendation Engine</h3>
+    <p>Content-based recommender using cosine similarity on book metadata. Text vectorization with CountVectorizer, top-N similar book retrieval. Python, pandas, scikit-learn.</p>
+  </div>
+  <div class="proj-item">
+    <h3>Semantic Text Analysis</h3>
+    <p>NLP pipeline for sentiment scoring, keyword extraction, and topic modeling on unstructured text. NLTK, Python.</p>
+  </div>
+  <div class="proj-item">
+    <h3>Language Training Tool</h3>
+    <p>Terminal-based language learning app with 270-word flashcard system, phonetic pronunciation, timed writing, and progress tracking. Node.js, zero dependencies.</p>
+  </div>
+  <div class="proj-item">
+    <h3>Suicide Rate Prediction</h3>
+    <p>Exploratory analysis and regression modeling on global demographic and socioeconomic indicators. pandas, seaborn, scikit-learn.</p>
+  </div>
+</div>
+
+<h2>Experience</h2>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">Concentrix — Technical Advisor</span>
+    <span class="item-date">Oct 2024 – Present</span>
+  </div>
+  <div class="item-sub">Remote, Canada</div>
+  <ul>
+    <li>Analyzed 200+ weekly user interactions using SQL and Excel, identifying recurring trends that reduced repeat incidents by 15%</li>
+    <li>Documented business requirements and system issues across teams, improving resolution turnaround by ~20%</li>
+    <li>Maintained 4.8/5 CSAT by translating technical findings into actionable business recommendations</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">Cascades — Junior QA Analyst</span>
+    <span class="item-date">Jan 2024 – Jul 2024</span>
+  </div>
+  <div class="item-sub">Canada</div>
+  <ul>
+    <li>Validated 50+ business and functional requirements during enterprise system modernization with zero critical post-release defects</li>
+    <li>Wrote SQL queries for backend data validation, catching reporting errors before production deployment</li>
+    <li>Led UAT sessions with cross-functional stakeholders across operations, IT, and business teams</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">Zion Building Supplies — QA & Customer Service</span>
+    <span class="item-date">Nov 2022 – Dec 2023</span>
+  </div>
+  <div class="item-sub">Brampton, ON</div>
+  <ul>
+    <li>Redesigned operational workflows using root cause analysis, reducing quality-related rework</li>
+    <li>Built tracking reports that improved defect visibility and reporting consistency</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">Mobilous — Quality Analyst</span>
+    <span class="item-date">Aug 2020 – Nov 2021</span>
+  </div>
+  <div class="item-sub">Gurgaon, India</div>
+  <ul>
+    <li>Partnered with product owners to translate business requirements into testable user stories and acceptance criteria</li>
+    <li>Built test suites mapped to functional requirements for web and mobile applications</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">CSIO-CSIR — Software Engineer Intern</span>
+    <span class="item-date">Jan 2020 – Jul 2020</span>
+  </div>
+  <div class="item-sub">Chandigarh, India</div>
+  <ul>
+    <li>Analyzed system workflows and data flows to identify security gaps in enterprise architecture</li>
+    <li>Delivered technical documentation and data analysis that informed solution design decisions</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+
+<div class="item">
+  <div class="item-header">
+    <span class="item-title">Post-Graduate Certificate in Data Analytics</span>
+    <span class="item-date">Canada</span>
+  </div>
+  <div class="item-sub">Statistical analysis, data modeling, SQL, Python for data science, machine learning, visualization</div>
+</div>
+
+<div class="item" style="margin-bottom: 0;">
+  <div class="item-header">
+    <span class="item-title">Bachelor of Technology in Computer Science</span>
+  </div>
+</div>
+
+</body>
+</html>
